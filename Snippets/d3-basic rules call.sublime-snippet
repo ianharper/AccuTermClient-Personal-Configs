@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+dim args($1\$$2); mat args = ''; stat = ''
+$3
+call $1.rules('$2', args, stat)
+if stat ne '' and stat<1> ne status\$success then 
+	$4
+end
+]]></content>
+	<tabTrigger>rules</tabTrigger>
+	<scope>source.d3-basic</scope>
+</snippet>

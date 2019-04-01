@@ -1,0 +1,5 @@
+[
+	{ "keys": ["alt+pageup"], "command": "scroll_lines", "args" : {"amount": 30.0} },
+  	{ "keys": ["alt+pagedown"], "command": "scroll_lines", "args" : {"amount": -30.0} },
+	{ "keys": ["ctrl+f12"], "command": "mv_basic_reindent"}
+]

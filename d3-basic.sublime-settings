@@ -1,0 +1,12 @@
+{
+	"ensure_newline_at_eof_on_save": true,
+	"extensions":
+	[
+		"bp"
+	],
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"trim_automatic_white_space": true,
+	"trim_trailing_white_space_on_save": true,
+	"default_file_extension": "d3"
+}

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+CONTROLS = '' ; PROPERTIES = '' ; VALUES = ''
+
+]]></content>
+    <tabTrigger>CPV INIT</tabTrigger>
+    <scope>source.d3-basic</scope>
+    <description>init controls-properties-values></description>
+</snippet>

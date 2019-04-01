@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+call atguisetprops(guiapp, guifrm, controls, properties, values, guierrors, guistate)
+]]></content>
+	<tabTrigger>cpv set</tabTrigger>
+	<scope>source.d3-basic</scope>
+</snippet>

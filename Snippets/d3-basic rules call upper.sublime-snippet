@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+DIM ARGS($1\$$2); MAT ARGS = ''; STAT = ''
+$3
+CALL $1.RULES('$2', ARGS, STAT)
+IF STAT NE '' AND STAT<1> NE STATUS\$SUCCESS THEN 
+	$4
+END
+]]></content>
+	<tabTrigger>RULES</tabTrigger>
+	<scope>source.d3-basic</scope>
+</snippet>

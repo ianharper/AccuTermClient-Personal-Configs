@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+controls<-1> = $1 ; properties<-1> = $2 ; values<-1> = $3
+]]></content>
+    <tabTrigger>cpv</tabTrigger>
+    <scope>source.d3-basic</scope>
+    <description>controls-properties-values></description>
+</snippet>

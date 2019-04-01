@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+
+$1: * requires: $2  sets: $3
+	$0
+	RETURN 
+
+
+***************************************************************************
+
+]]></content>
+    <tabTrigger>INSUB</tabTrigger>
+    <scope>source.d3-basic</scope>
+    <description>Internal subroutine block</description>
+</snippet>

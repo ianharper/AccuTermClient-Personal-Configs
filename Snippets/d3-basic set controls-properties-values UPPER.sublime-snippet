@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+CALL ATGUISETPROPS(GUIAPP, GUIFRM, CONTROLS, PROPERTIES, VALUES, GUIERRORS, GUISTATE)
+]]></content>
+	<tabTrigger>CPV SET</tabTrigger>
+	<scope>source.d3-basic</scope>
+</snippet>

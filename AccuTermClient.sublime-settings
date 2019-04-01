@@ -1,0 +1,5 @@
+{
+	"dbms": "d3",
+	"default_save_location": "H:\\Programs\\MV Basic",
+	"compile_command": "COMPILE ${FILE} ${ITEM}",
+}

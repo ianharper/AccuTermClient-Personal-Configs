@@ -1,0 +1,38 @@
+//AccuTermClient - User Commands
+[
+	// {
+	// 	"caption": "", 
+	// 	"command": "accu_term_execute",
+	// 	"args": { "command": "", "output_to": "console"}
+	// },
+	{
+		"caption": "Term - Disable page breaks",
+		"command": "accu_term_execute",
+		"args": { "command": "TERM 150,0", "output_to": "console"}
+	},
+	{
+		"caption": "List Locks (Item Locks)",
+		"command": "accu_term_execute",
+		"args": { "command": "LIST-LOCKS (I", "output_to": "console"}
+	},
+	{
+		"caption": "List Prog Meta", 
+		"command": "accu_term_execute",
+		"args": { "command": "LIST-PROG-META ${FILE} ${ITEM}", "output_to": "console"}
+	},
+	{
+	"caption": "List Users", 
+	"command": "accu_term_execute",
+	"args": { "command": "LIST-USERS", "output_to": "console"}
+	},
+	{
+		"caption": "List Runtime Errors", 
+		"command": "accu_term_execute",
+		"args": { "command": "LIST-RUNTIME-ERRORS WITH USERPIB = \"[HARPER]\" \"[IANH]\"", "output_to": "console"}
+	},	
+	{
+		"caption": "Delete Runtime Errors", 
+		"command": "accu_term_execute",
+		"args": { "command": "DELETE RUNTIME-ERRORS WITH USERPIB = \"[HARPER]\" \"[IANH]\"", "output_to": "console"}
+	},
+]
